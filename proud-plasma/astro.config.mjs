@@ -7,5 +7,6 @@ export default defineConfig({
   integrations: [tailwind(), react()],
   output: "server",
   adapter: vercel(),
-  site: 'https://yugohasegawa.github.io'
+  site: 'https://yugohasegawa.github.io',
+  outDir: './docs',
 });
