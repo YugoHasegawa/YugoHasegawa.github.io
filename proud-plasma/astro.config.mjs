@@ -5,7 +5,6 @@ import vercel from "@astrojs/vercel";
 
 export default defineConfig({
   integrations: [tailwind(), react()],
-  output: "server",
-  adapter: vercel(),
+  output: "static",
   site: 'https://yugohasegawa.github.io',
 });
