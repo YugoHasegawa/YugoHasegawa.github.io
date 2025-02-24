@@ -21,7 +21,6 @@ export interface FAQProps {
 
 export interface StoreLinks {
 	apple: string;
-	google: string;
 }
 
 export interface StoreButtonProps {

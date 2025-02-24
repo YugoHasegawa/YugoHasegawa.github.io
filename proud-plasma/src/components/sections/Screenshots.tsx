@@ -61,8 +61,8 @@ export default function Screenshots({ images }: ScreenshotsProps) {
 										alt={`Screenshot ${index + 1}`}
 										className={`rounded-xl border border-white/10 object-cover ${
 											activeDevice === "iphone"
-												? "aspect-[9/16] w-[260px]"
-												: "aspect-[4/3] w-[360px]"
+												? "aspect-[9/18] w-[200px]"
+												: "aspect-[6/8] w-[420px]"
 										}`}
 										loading="lazy"
 										whileHover={{

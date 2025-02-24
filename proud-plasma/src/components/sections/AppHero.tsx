@@ -21,7 +21,9 @@ export default function AppHero({
 						<img
 							src={logo.src}
 							alt="App Icon"
-							className="h-40 w-40 rounded-2xl shadow-lg"
+							width="100%"
+							height="100%"
+							className="rounded-2xl shadow-lg"
 						/>
 					)}
 				</div>
@@ -41,12 +43,6 @@ export default function AppHero({
 						href={storeLinks.apple}
 						label="Download on the"
 						storeName="App Store"
-					/>
-					<StoreButton
-						store="google"
-						href={storeLinks.google}
-						label="Get it on"
-						storeName="Google Play"
 					/>
 				</div>
 			</div>

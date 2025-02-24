@@ -1,25 +1,24 @@
 import { FiBox, FiStar, FiZap } from "react-icons/fi";
 import type { AppData } from "../types/app";
 import {
-	RiInstagramFill,
-	RiTelegram2Fill,
 	RiTwitterXFill,
 } from "react-icons/ri";
+import { MdStickyNote2 } from "react-icons/md";
 
 export const appData: AppData = {
-	title: "Your App Name",
+	title: "Compose Timer",
 	description:
-		"Here you can write a brief description of your application. Tell users about its main features and benefits in 1-2 sentences.",
+		"行動の習慣化のサポート、プレゼンの時間配分の管理、自由度の高いポモドーロタイマー、複数のパートを組み立ててタイムラインを構成できるので様々な用途に利用可能です。",
 	logo: {
-		type: "iframe",
-		src: "https://api.bohd4n.me/embed/d92TevY2lQhnQnC/emoji1",
+		type: "image",
+		src: "/assets/favicon.png",
 	},
 	screenshots: {
 		iphone: [
 			"/assets/screenshots/iphone/1.png",
 			"/assets/screenshots/iphone/2.png",
 			"/assets/screenshots/iphone/3.png",
-			// ...more Iphone screenshotsa
+			// ...more Iphone screenshots
 		],
 		ipad: [
 			"/assets/screenshots/ipad/1.png",
@@ -30,52 +29,34 @@ export const appData: AppData = {
 	},
 	features: [
 		{
-			title: "Main Feature",
-			description: "Describe your main feature here. What makes it special?",
+			title: "パートにわけてタイマーを組み立てる",
+			description: "必要な数だけパートを並べてタスクに合わせたタイマーを作ろう!",
 			icon: FiStar,
 		},
 		{
-			title: "Another Feature",
-			description: "What else can your app do? Tell users about it here.",
+			title: "パートごとにタイトルと説明をつけられる",
+			description: "読み上げ機能つきで画面を見られなくても大丈夫",
 			icon: FiZap,
 		},
 		{
-			title: "One More Feature",
-			description: "Add another key feature of your application here.",
+			title: "バックグラウンドでもタイマーは止まらない",
+			description: "他のアプリを開いていても大丈夫、パートの終了を通知でお知らせします",
 			icon: FiBox,
 		},
 	],
 	faqs: [
-		{
-			question: "Question 1?",
-			answer: "Answer to question 1 goes here.",
-		},
-		{
-			question: "Question 2?",
-			answer: "Answer to question 2 goes here.",
-		},
-		{
-			question: "Question 3?",
-			answer: "Answer to question 3 goes here.",
-		},
 	],
 	storeLinks: {
-		apple: "#", // Replace with your App Store link
-		google: "#", // Replace with your Google Play link
+		apple: "https://apps.apple.com/jp/app/composetimer/id6740627031",
 	},
 	socialLinks: [
 		{
-			url: "#",
-			icon: RiInstagramFill,
-			label: "Instagram",
+			url: "https://note.com/compose_timer15",
+			icon: MdStickyNote2,
+			label: "Twitter",
 		},
 		{
-			url: "#",
-			icon: RiTelegram2Fill,
-			label: "Telegram",
-		},
-		{
-			url: "#",
+			url: "https://twitter.com/c_timer15?s=21&t=d1wpNyUrpBTG4CTWLODOKA",
 			icon: RiTwitterXFill,
 			label: "Twitter",
 		},
